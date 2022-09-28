@@ -41,4 +41,20 @@ $fontColor: white;
   border-radius: 30px;
   padding: 10px 40px;
   color: $fontColor;
+  font-size: 20px;
+  border: none;
 }
+
+
+@media (max-width: 760px) and (min-width: 280px) {
+  .get_started_footer{
+    font-size: 15px;
+  }
+  .footer_header_text{
+    font-size: 28px;
+  }
+  .footer_description_text{
+    font-size: 15px;
+  }
+ }
+ 
