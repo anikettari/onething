@@ -1,0 +1,122 @@
+
+$backgroundPink:#f2707c;
+$colorWhite:white;
+$colorBlack:#000000;
+$fontRoboto:Roboto;
+
+.container {
+    width: 100%;
+  }
+  
+
+  .get_started_btn_nav {
+    background: $backgroundPink;
+    border-radius: 4px;
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    color: $colorWhite;
+    padding: 8px 24px;
+  }
+  
+  .get_started_btn_nav-two {
+    border-radius: 30px;
+  }
+  
+  .description_title {
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: $colorBlack;
+  }
+  
+  .description_sub {
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+  
+    color: $colorBlack;
+    line-height: 150%;
+  }
+  
+  .colour_white {
+    color: $colorWhite;
+  }
+  
+  .padding_responsive {
+    padding: 60px !important;
+  }
+  
+  @media (max-width: 1199.98px) {
+    .description_title {
+      font-size: 28px;
+    }
+    .padding_responsive {
+      padding: 15px !important;
+    }
+    .get_started_btn_nav-two {
+      align-items: center;
+      font-size: 12px;
+      margin: auto;
+    }
+    .description_sub {
+      font-size: 14px;
+    }
+  
+    .mobile_only {
+      display: block !important;
+    }
+  }
+  
+  .card_Image {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .control-dots {
+    display: none !important;
+  }
+  .slider-wrapper {
+    height: 250px !important;
+  }
+  
+  .carousel {
+    margin: auto !important;
+  }
+  
+  .thumb .selected {
+    display: none;
+    border: 1px solid $colorBlack !important;
+    margin: auto;
+  }
+  .animated {
+    transform: translate3d(20px, 0px, 0px);
+  }
+  
+  :focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  
+  .button_middle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile_only {
+    display: none;
+  }
+  .accordion-button {
+    background-color: $colorWhite !important;
+  }
+  
+  @media (max-width: 760px) and (min-width: 280px) {
+    .description_title {
+      font-size: 22px !important;
+    }
+  }
+  

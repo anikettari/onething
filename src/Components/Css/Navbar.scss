@@ -1,0 +1,50 @@
+$textRobotoFont: Roboto;
+$fontColor: #262a2f;
+$btnBackgroundColor: #f2707c;
+$btnColor: white;
+$paddingLeft: 110px;
+$paddingright: 100px;
+
+.text_one {
+  font-family: $textRobotoFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: $fontColor;
+}
+
+.nav_padding_right {
+  padding-right: $paddingright;
+}
+
+.nav_padding_left {
+  padding-left: $paddingLeft;
+}
+
+.get_started_btn_nav {
+  background: $btnBackgroundColor;
+  border-radius: 4px;
+  font-family: $textRobotoFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  color: $btnColor;
+  padding: 8px 24px;
+}
+
+@media (max-width: 1199.98px) {
+  .description_title {
+    font-size: 28px;
+  }
+  .get_started_btn_nav-two {
+    align-items: center;
+    font-size: 12px;
+    margin: auto;
+  }
+
+  .nav_padding_left {
+    padding-left: 20px !important;
+  }
+}

@@ -1,0 +1,44 @@
+$footerTitleFontOpenSans: "open sans";
+$footerFontRoboto: roboto;
+$fontStyle: normal;
+$fontColor: white;
+
+.font_open_sans {
+  font-family: $footerTitleFontOpenSans;
+  font-style: $fontStyle;
+}
+
+.font_robota {
+  font-family: $footerFontRoboto;
+  font-style: $fontStyle;
+}
+
+.navigation_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $fontColor;
+}
+
+.footer_header_text {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: $fontColor;
+}
+
+.footer_description_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: $fontColor;
+}
+
+.get_started_footer {
+  background-color: #8e7cb5;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: $fontColor;
+}
