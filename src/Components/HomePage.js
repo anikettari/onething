@@ -49,16 +49,19 @@ const HomePage = () => {
               <p className="description_title colour_white">
                 Why the OneSync Card is the Best Choice for you?
               </p>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 You can create a Credit Card that fits all your needs on your
                 own. Gone are the days when you had choose from premade credit
                 cards with features that you did not need.{" "}
               </p>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 With the OneSync card you can save on all the things that you
                 love to do with a unique personal touch
               </p>
-              <p className="description_sub colour_white">Get Started</p>
+              <p className="description_sub colour_white">
+                Get Started
+                <span> {"  >  "} </span>
+              </p>
             </Col>
           </Row>
         </Container>

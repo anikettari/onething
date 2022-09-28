@@ -20,7 +20,7 @@ const Footer = (props) => {
             <Row>
               <Col>
                 <button className=" button_middle mx-auto get_started_footer mt-4 font_robota">
-                  Get started{" "}
+                  Get Started
                 </button>
               </Col>
             </Row>

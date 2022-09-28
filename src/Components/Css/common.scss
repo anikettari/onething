@@ -51,27 +51,7 @@ $fontRoboto:Roboto;
     padding: 60px !important;
   }
   
-  @media (max-width: 1199.98px) {
-    .description_title {
-      font-size: 28px;
-    }
-    .padding_responsive {
-      padding: 15px !important;
-    }
-    .get_started_btn_nav-two {
-      align-items: center;
-      font-size: 12px;
-      margin: auto;
-    }
-    .description_sub {
-      font-size: 14px;
-    }
-  
-    .mobile_only {
-      display: block !important;
-    }
-  }
-  
+
   .card_Image {
     height: 200px;
     width: 200px;
@@ -113,12 +93,48 @@ $fontRoboto:Roboto;
   .accordion-button {
     background-color: $colorWhite !important;
   }
-  
-  @media (max-width: 760px) and (min-width: 280px) {
+
+
+  @media (max-width: 1199.98px) {
     .description_title {
-      font-size: 22px !important;
+      font-size: 28px;
     }
-   
+    .padding_responsive {
+      padding: 15px !important;
+    }
+    .get_started_btn_nav-two {
+      align-items: center;
+      font-size: 12px;
+      margin: auto;
+    }
+    .description_sub {
+      font-size: 14px;
+    }
+  
+    .mobile_only {
+      display: block !important;
+    }
+  }
+  
+  @media (max-width: 760px) and (min-width: 380px) {
+    .description_title {
+      font-size: 32px ;
+    }
+    .description_sub {
+      font-size: 18px;
+    }
+    
+  }
+  
+
+  @media (max-width: 379) and (min-width: 280px) {
+    .description_title {
+      font-size: 22px ;
+    }
+    .description_sub {
+      font-size: 14px;
+    }
+    
   }
   
 

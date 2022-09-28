@@ -72,6 +72,7 @@ const FormComponent = (props) => {
                 the card. You can fill this later as well<br></br>
                 <br></br>
                 Get Started
+                <span> {"  >  "} </span>
               </p>
             )}
           </Col>
