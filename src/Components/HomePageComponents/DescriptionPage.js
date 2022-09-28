@@ -17,30 +17,31 @@ const DescriptionPage = (props) => {
           </Col>
           {props.screenSize > 500 ? (
             <Col className="padding_responsive " xs={12} md={6}>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 That's why it comes with benefits & rewards chosen by you.
                 Available in multiple designs, your card comes in a style
                 selected by you. You can come back each year, to edit your
                 benefits or update your style.
               </p>
               <br></br>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 Your OneSync Credit Card stays true to you, year after year.
                 It’s the only card you’ll ever need.
               </p>
               <p className="description_sub colour_white underline">
-                Get Started{" > "}{" "}
+                Get Started
+                <span> {"  >  "} </span>
               </p>
             </Col>
           ) : (
             <Col className="mobile_only" xs={12}>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 Build your own Credit Card that fits in your day to day
                 lifestyle. First, choose your rewards and then select your card
                 design.
               </p>
               <br></br>
-              <p className="description_sub colour_white">
+              <p className="description_sub_small colour_white">
                 Check if the card is available in your city
               </p>
               <Row>

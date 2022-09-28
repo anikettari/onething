@@ -1,3 +1,6 @@
+
+$fontRoboto:roboto;
+$colorBlack:black;
 .backgroundcolor {
     background-color: #8e7cb5;
   }
@@ -15,3 +18,21 @@ border: none;
 padding: 5px 20px;
 color: white;
   }
+
+  .description_sub_small {
+    font-family: $fontRoboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+  
+    color: $colorBlack;
+    line-height: 150%;
+  }
+
+
+  @media (max-width: 760px) and (min-width: 280px) {
+    .description_sub_small {
+      font-size: 20px !important;
+    }
+  }
+  

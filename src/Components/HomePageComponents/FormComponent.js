@@ -60,6 +60,7 @@ const FormComponent = (props) => {
             ) : (
               <></>
             )}
+
             <p className="description_title">Fill Eligibility Form</p>
             {props.screenSize > 780 ? (
               <p className="description_sub">

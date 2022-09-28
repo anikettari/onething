@@ -15,3 +15,18 @@ font-size: 14px;
 line-height: 20px;
 color: rgba(0, 0, 0, 0.87);
   }
+
+ 
+
+
+  @media (max-width: 760px) and (min-width: 280px) {
+.faq_text_header {
+  font-size: 15px ;
+}
+
+    .faq_text_ans {
+      font-size: 12px ;
+    }
+   
+  }
+  

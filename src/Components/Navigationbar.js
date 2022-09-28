@@ -11,7 +11,7 @@ const Navigationbar = () => {
       <Navbar expand="lg" className="">
         <Container fluid>
           <Navbar.Brand className="text_one">
-            <img src={Logo} className="nav_padding_left"></img>
+            <img src={Logo} className="nav_padding_left image_responsive"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
